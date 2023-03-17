@@ -1,5 +1,8 @@
 package su.hauer.collections.sparse;
 
+/**
+ * @author Andrei Ivanov
+ */
 public class DoubleSparseArray extends SparseArray {
 
     private final double[] values;

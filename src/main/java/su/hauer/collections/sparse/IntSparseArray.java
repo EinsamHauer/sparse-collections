@@ -1,5 +1,8 @@
 package su.hauer.collections.sparse;
 
+/**
+ * @author Andrei Ivanov
+ */
 public class IntSparseArray extends SparseArray {
 
     private final int[] values;

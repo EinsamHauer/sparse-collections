@@ -2,6 +2,9 @@ package su.hauer.collections.sparse;
 
 import su.hauer.collections.sparse.utils.ArrayUtils;
 
+/**
+ * @author Andrei Ivanov
+ */
 public abstract class SparseArray {
 
     protected long[] buckets;
