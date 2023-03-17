@@ -34,6 +34,11 @@ Long story short here is the graph:
 
 _Note: The rhombus marks the last array size which fits into L2 cache, triangle - the last array size which fits into L3._
 
+The same graph but with seconds/operation:
+
+![The benchmark](/docs/benchmark2.png)
+
+
 ### NB!
 
 So far these data structures are read-only. It is possible to implement _set-_ and _delete-like_ operations. The problem is that both these operations will be $O(n)$.  This may be still be useful in some cases though.
